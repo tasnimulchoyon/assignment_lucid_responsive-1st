@@ -1,0 +1,450 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+   
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+
+    /* feature start */
+    .feature .down .box{
+      margin: 10px 0;
+      /* border: 1px solid red; */
+      box-shadow: 6px 2px 25px #99999982;
+    }
+    /* feature end */
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    /* header section start */
+    header{
+      position: relative;
+      /* background-color: red; */
+    }
+    .nav-bar{
+      border-radius: 5px;
+      top: 0;
+      margin: 0 auto;
+      width: 94%;
+      position: fixed;
+      background: #16151b;
+      /* background-color: yellow; */
+      margin-top: 5px;
+    }
+
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+      color: rgb(255 255 255);
+      background: url(../img/line.png) left bottom no-repeat !important;
+  }
+
+    .nav-item .nav-link:hover{
+      background: url(../img/line.png) left bottom no-repeat !important;
+      
+    }
+
+    
+
+    .navbar-toggler {
+      padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+      font-size: var(--bs-navbar-toggler-font-size);
+      line-height: 1;
+      color: rgba(255, 255, 255, 0.65);
+      background-color: #ffffff;
+      border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+      border-radius: var(--bs-navbar-toggler-border-radius);
+      transition: var(--bs-navbar-toggler-transition);
+  }
+
+    .banner-1{
+      /* background-color: red; */
+      padding: 10px 20px;
+    }
+
+    .banner-1 .left .span{
+      text-align: center;
+    }  
+
+    .banner-1 .left h1{
+      margin-bottom: 20px !important;
+      text-align: center;
+      font-size: 31px !important;
+      line-height: normal !important;
+      font-weight: 800 !important;
+    }    
+
+    .banner-1 .left p{
+      margin: 0 auto !important;
+      text-align: center;
+      margin-bottom: 20px !important;
+    } 
+
+    .banner-1 .left .btn-box{
+      box-shadow: 6px 2px 25px #ffffff29;
+      border-radius: 5px;
+      padding: 20px 0;
+      background-color: rgba(81, 80, 80, 0.071);
+      /* border: 1px solid red !important; */
+      margin-top: 25px !important;
+      /* text-align: center; */
+      /* margin: 0 auto; */
+      /* margin-left: 10px; */
+      /* display: flex;
+      flex-direction: column; */
+      justify-content: space-evenly !important;
+    }
+
+    .banner-1 .left .btn-box a{
+      align-items: end;
+      /* margin-left: 10px; */
+      width: 20px !important;
+      padding: 13px 18px !important;
+      font-size: 10px !important;
+      margin-right: 0 !important;
+      
+    }
+
+    
+
+    .banner-1 .left .btn-box .r-btn a{
+      /* padding: 10px 15px !important; */
+    }
+
+    .banner-1 .right{
+      text-align: center !important;
+      /* background-color: blueviolet; */
+      /* padding: 0; */
+      margin-top: 15px;
+      padding: 15px;
+    }
+
+    .banner-1 .right img{
+      width: 100% !important;
+    }
+    
+    /* header section end */
+
+    /* feature-section start */
+    .feature{
+      padding: 30px 0px 20px !important;
+     
+    }
+
+    .feature .up img{
+      width: 60px !important;
+      transition: 0.3s;
+    }
+
+    .feature .up .box h2{
+      font-size: 32px;
+      line-height: normal !important;
+      margin-bottom: 10px;
+      font-weight: 800 !important;
+      /* color: red !important; */
+    }
+
+    .feature .down{
+      /* border: 1px solid red; */
+    }
+
+    
+
+    .feature .down .box{
+      margin: 10px 0;
+      /* border: 1px solid red; */
+      box-shadow: 6px 2px 25px #99999982;
+      transition: 0.3s;
+    }
+    .feature .down .box:hover{
+      box-shadow: 6px 2px 25px #008fd64e;
+      transition: 0.3s;
+    }
+    /* feature-section end */
+
+    /* .banner-2 start */
+    .banner-2{
+      padding: 20px 0 15px !important;
+    }
+
+    .banner-2 .left{
+      text-align: center;
+    }
+
+    .banner-2 .left img{
+      margin-right: 30px !important;
+    }
+
+    .banner-2 .right{
+      background-color: rgba(128, 128, 128, 0.103);
+    }
+
+    .banner-2 .right .up{
+      text-align: center;
+    }
+
+    .banner-2 .right .up h2{
+      font-weight: 800 !important;
+      font-size: 32px !important;
+      color: black !important;
+    }
+    .banner-2 .right .up img{
+      width: 60px !important;
+      transition: 0.3s !important;
+    }
+    .banner-2:hover.banner-2 .right .up img{
+      width: 100px !important;
+      transition: 0.3s !important;
+    }
+
+    .banner-2 .right img{
+      padding: 20px 0;
+    }
+    
+
+    .banner-2 .right p{
+      margin: 0 auto;
+    }
+
+    .banner-2 .right .down{
+      text-align: center;
+      transition: 0.3s;
+      
+    }
+
+    ol, ul li{
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .banner-2 .right .down:hover{
+      border-radius: 5px;
+      background-color: rgb(255, 255, 255);
+      transition: 0.3s;
+    }
+    /* .banner-2 end */
+
+    /* banner-3 section css start */
+    .banner-3{
+
+    }
+
+    /* left start */
+    .banner-3 .left{
+      text-align: center;
+
+    }
+
+    .banner-3 .left img{
+      width: 60px !important;
+      transition: 0.3s !important;
+    }
+    .banner-3:hover.banner-3 .left img{
+      width: 100px !important;
+      transition: 0.3s !important;
+    }
+
+    .banner-3 .left h2{
+      color: black !important;
+      font-size: 32px !important;
+      font-weight: 800 !important;
+    }
+
+    .banner-3 .left p{
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    /* left end */
+    /* right start */
+    .banner-3 .right{
+      padding: 20px 0 0;
+      background-color: rgba(255, 255, 255, 0.37);
+      text-align: center;
+      margin-top: 30px;
+
+    }
+    /* right end */
+    /* banner-3 section css end */
+
+    /* .slide section start */
+    .slide .up img{
+      width: 60px !important;
+      transition: 0.3s;
+    }
+    .slide:hover.slide .up img{
+      width: 100px !important;
+      transition: 100px;
+    }
+
+    .slide .down{
+      text-align: left;
+    }
+
+    .slide .down .in p i{
+      text-align: center;
+      color: white;
+    }
+
+    .slide .down .in .group .box h6{
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .slide .down .in .group .box h5{
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    /* .slide section end */
+
+    /* .feature-2 css start */
+    .feature-2 .text{
+      margin: 0 auto;
+      text-align: center;
+      width: 90%;
+    }
+    .feature-2 .text h1{
+      color: white !important;
+      font-size: 34px !important;
+    }
+
+    .feature-2 .btn{
+      padding: 10px 0 13px !important;
+      background-color: rgba(105, 103, 103, 0.135) !important;
+      box-shadow: 6px 2px 25px #ffffff4e;
+    }
+    /* .feature-2 css end */
+
+    /* price section start */
+
+    .price:hover.price .up img{
+      width: 100px !important;
+      transition: 0.3s !important;
+    }
+    
+
+    .price .up{
+      padding: 15px 0;
+    }
+
+    .price .down .pb-box{
+      /* padding: 20px 0; */
+      box-shadow: 6px 10px 15px #0000004e;
+      margin: 10px 0;
+    }
+
+    .price .down .pb-box:hover{
+      box-shadow: 10px 5px 30px #008fd655;
+    }
+
+    .price .down .pb-box:hover.price .up img{
+      background-color: red;
+      width: 100px;
+    }
+    /* price section end */
+
+    /* .contact section css start */
+    .contact:hover.contact .up img{
+      width: 100px !important;
+      transition: 0.3s !important;
+    }
+    .contact .form{
+      width: 80% !important;
+      text-align: center !important;
+      background-color: black !important;
+    }
+
+    .contact .form .left{
+      text-align: center !important;
+    }
+
+    .contact .form .right{
+      text-align: center !important;
+    }
+
+    .contact .form .right .btn{
+      text-align: center !important;
+    }
+
+
+    /* .contact section css end */
+
+    /* map */
+
+    .map-in{
+      transition: 0.3s;
+  }
+  
+  .map-in:hover{
+      transition: 0.3s;
+      box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.295);
+  }
+    
+  }
+
+
+  footer .logo a{
+    font-size: 25px !important;
+    margin: 0 3px !important;
+  }
+
+  footer .text p{
+    font-size: 13px !important;
+  }
+
